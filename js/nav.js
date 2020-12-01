@@ -64,7 +64,7 @@ function loadPage(page) {
       }
     }
   };
-  xhttp.open("GET", 'Pages/${page}.html', true);
+  xhttp.open("GET", `Pages/${page}.html`, true);
   xhttp.send();
 }
 });
